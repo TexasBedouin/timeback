@@ -42,6 +42,12 @@ Everything Timeback remembers (how you like to learn, what eats your time, your 
 
 Early. Built to be dogfooded. Feedback on what actually changed your habits (and what didn't) is the most useful thing you can send.
 
+## Version
+
+Current version: **1.0.0** (see [VERSION](VERSION) and [CHANGELOG.md](CHANGELOG.md)).
+
+When you use Timeback, it does a quick best-effort check for a newer version and tells you if you're behind. To update, `git pull` or re-download this repo. Versioning is semantic (MAJOR.MINOR.PATCH). To cut a release, see [RELEASING.md](RELEASING.md).
+
 ## Credits
 
 The mission anchor, the mastery record, and teaching just past your current level are borrowed from Matt Pocock's [teach](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach) skill. Worth a read.
