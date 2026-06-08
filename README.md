@@ -42,6 +42,10 @@ Everything Timeback remembers (how you like to learn, what eats your time, your 
 
 Early. Built to be dogfooded. Feedback on what actually changed your habits (and what didn't) is the most useful thing you can send.
 
+## Credits
+
+The mission anchor, the mastery record, and teaching just past your current level are borrowed from Matt Pocock's [teach](https://github.com/mattpocock/skills/tree/main/skills/productivity/teach) skill. Worth a read.
+
 ## License
 
 MIT. Use it, fork it, make it yours.
