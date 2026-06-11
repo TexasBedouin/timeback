@@ -25,7 +25,17 @@ Ships with one ready-to-run playbook (cold emails) so there's something real on 
 2. Add the contents of `SKILL.md` to the project's instructions. That's it. It's now automatically on in every chat in that project, with nothing to remember.
 3. Let it set up on first use (it asks two quick questions, then gets out of your way).
 
-**With Claude Code or other AI tools:** drop the `timeback/` folder into wherever your tool reads skills from, or paste `SKILL.md` into your system prompt / project instructions.
+**With Claude Code:** run this in your project root:
+
+```bash
+git clone https://github.com/TexasBedouin/timeback .claude/skills/timeback
+```
+
+Then tell Claude: `Use the timeback skill.`
+
+To update to the latest version later, run `git pull` inside `.claude/skills/timeback`.
+
+**With other AI tools:** paste `SKILL.md` into your system prompt or project instructions.
 
 ## Your data stays yours
 
@@ -46,7 +56,7 @@ Early. Built to be dogfooded. Feedback on what actually changed your habits (and
 
 Current version: **1.0.0** (see [VERSION](VERSION) and [CHANGELOG.md](CHANGELOG.md)).
 
-When you use Timeback, it does a quick best-effort check for a newer version and tells you if you're behind. To update, `git pull` or re-download this repo. Versioning is semantic (MAJOR.MINOR.PATCH). To cut a release, see [RELEASING.md](RELEASING.md).
+When you use Timeback, it does a quick best-effort check for a newer version and tells you if you're behind. To update, run `git pull` inside `.claude/skills/timeback`. Versioning is semantic (MAJOR.MINOR.PATCH). To cut a release, see [RELEASING.md](RELEASING.md).
 
 ## Credits
 
